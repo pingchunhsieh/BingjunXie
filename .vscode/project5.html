@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip.com 機票特惠頁改版</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    :root {
+      --primary: #2D5BFF;
+      --light: #F7F8FC;
+      --dark: #1A1D23;
+      --gray: #8A8F98;
+    }
+
+    body {
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(10px);
+      padding: 18px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      z-index: 999;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary);
+      cursor: pointer;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 6%;
+      margin-top: 100px;
+    }
+
+    .back-btn {
+      color: var(--primary);
+      text-decoration: none;
+      margin-bottom: 20px;
+      display: inline-block;
+      font-weight: 500;
+    }
+
+    .project-header {
+      margin-bottom: 40px;
+    }
+
+    .project-header h1 {
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+
+    .project-header p {
+      color: var(--gray);
+      font-size: 16px;
+    }
+
+    .project-image {
+      width: 100%;
+      border-radius: 16px;
+      margin-bottom: 40px;
+    }
+
+    .project-content {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .project-content h3 {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 12px;
+      color: var(--dark);
+    }
+
+    .project-content p {
+      margin-bottom: 16px;
+      color: var(--gray);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo" onclick="window.location='1.html'">Simon Xie</div>
+  </nav>
+
+  <div class="container">
+    <a href="1.html" class="back-btn">← 返回作品集</a>
+    
+    <div class="project-header">
+      <h1>Trip.com 機票特惠頁改版</h1>
+      <p>流程設計 / 頁面設計</p>
+    </div>
+
+    <img src="Group 1739340335.png" alt="專案圖片" class="project-image">
+
+    <div class="project-content">
+      <h3>專案概述</h3>
+      <p>用戶需求：用戶需要記錄健康數據、查看趨势、接收提醒。</p>
+
+      <h3>我的工作</h3>
+      <p>用戶流程梳理、頁面交互原型、跳轉邏輯設計、易用性測試。</p>
+
+      <h3>最終成果</h3>
+      <p>降低操作步驟30%，提升完成率25%。</p>
+    </div>
+  </div>
+</body>
+</html>
